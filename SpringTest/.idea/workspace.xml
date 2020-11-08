@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e2c6fe-6ade-49e7-883d-5fcfcb011750" name="Default Changelist" comment="" />
+    <list default="true" id="0f65f292-285f-434f-8f1a-dc710e334f85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringAOP/src/nhjia/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAOP/src/nhjia/pojo/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAOP/src/nhjia/test/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nhjia/pojo/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nhjia/test/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nhjia/test/TestSpring.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +24,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1joYEwqqjwXORJKA6MTxGxJ4WAx" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jryo4hkACpBzNKlENmF983dU1z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,27 +42,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/apps/jar/lib" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\86173\Desktop\Desktop\untitled1\src" />
-      <recent name="C:\Users\86173\Desktop\Desktop\untitled1\src\com\how2java" />
-      <recent name="C:\Users\86173\Desktop\Desktop\untitled1\src\SpringTest" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nhjia.test.TestSpring" />
-      <module name="untitled1" />
+      <module name="SpringTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nhjia.pojo.*" />
+          <option name="PATTERN" value="com.nhjia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +75,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="30e2c6fe-6ade-49e7-883d-5fcfcb011750" name="Default Changelist" comment="" />
-      <created>1604471803339</created>
+      <changelist id="0f65f292-285f-434f-8f1a-dc710e334f85" name="Default Changelist" comment="" />
+      <created>1604576676749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604471803339</updated>
-      <workItem from="1604471805788" duration="4897000" />
+      <updated>1604576676749</updated>
+      <workItem from="1604576679912" duration="2727000" />
+      <workItem from="1604582442575" duration="767000" />
     </task>
     <servers />
   </component>
@@ -75,41 +89,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="43" key="#Project_Structure" timestamp="1604476333505">
+    <state x="361" y="100" key="#Project_Structure" timestamp="1604576912627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="85" y="43" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604476333505" />
-    <state x="401" y="153" key="FileChooserDialogImpl" timestamp="1604471908400">
+    <state x="361" y="100" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604576912627" />
+    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1604578119498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="401" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604471908400" />
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1604477074898">
+    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604578119498" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604581142760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604477074898" />
-    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1604477074898">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604581142760" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604581142760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604477074898" />
-    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1604477074898">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604581142760" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604581142760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604477074898" />
-    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1604477074898">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604581142760" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604581142760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604477074898" />
-    <state x="205" y="0" key="SettingsEditor" timestamp="1604473025536">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604581142760" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1604578144683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="205" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604473025536" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604471806164">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604578144683" />
+    <state x="449" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1604576680417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604471806164" />
-    <state x="449" y="95" key="spring file set editor" timestamp="1604472073917">
+    <state x="449" y="265" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604576680417" />
+    <state x="178" y="22" key="new project wizard" timestamp="1604581139952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1604472073917" />
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604581139952" />
+    <state x="809" y="190" key="run.anything.popup" timestamp="1604577811348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604577811348" />
+    <state x="1054" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604578399070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1054" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604578399070" />
+    <state x="449" y="124" key="spring file set editor" timestamp="1604576939921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="124" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1604576939921" />
   </component>
 </project>
